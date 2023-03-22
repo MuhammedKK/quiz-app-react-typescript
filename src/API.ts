@@ -22,6 +22,7 @@ export type QuestionState = Questions & {
     question : string;
     answer: string;
     correct: boolean;
+    correct_answer: string 
 
   }
 // Diffculty ENUM
@@ -29,7 +30,7 @@ export type QuestionState = Questions & {
 export const enum Diffculty {
   EASY = "easy",
   MEDIUM = "medium",
-  HARD = "HARD",
+  HARD = "hard",
 }
 
 // fetch API Method
